@@ -62,6 +62,7 @@ int main(int argc, char** argv)
 
     auto config = std::make_shared<bcos::boostssl::ws::WsConfig>();
     config->setModel(bcos::boostssl::ws::WsModel::Client);
+    config->setDisableSsl(true);
 
     bcos::boostssl::ws::EndPoint endpoint;
     endpoint.host = host;

@@ -75,6 +75,7 @@ int main(int argc, char** argv)
     peers->push_back(endpoint);
     config->setConnectedPeers(peers);
     config->setThreadPoolSize(4);
+    config->setDisableSsl(true);
 
     auto factory = std::make_shared<SdkFactory>();
     factory->setConfig(config);
