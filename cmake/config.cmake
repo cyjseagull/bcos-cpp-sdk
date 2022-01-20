@@ -7,7 +7,7 @@ hunter_config(
     SHA1
     8064156508312dde1d834fec3dca9b11006555b6
     CMAKE_ARGS
-    # CONFIG_MACRO=BOOST_UUID_RANDOM_PROVIDER_FORCE_POSIX;BOOST_ALL_DYN_LINK
+    CONFIG_MACRO=BOOST_UUID_RANDOM_PROVIDER_FORCE_POSIX
 )
 
 hunter_config(bcos-utilities VERSION 3.0.0-rc2-local
@@ -17,9 +17,9 @@ hunter_config(bcos-utilities VERSION 3.0.0-rc2-local
 )
 
 hunter_config(bcos-boostssl
-	VERSION 3.0.0-local
-	URL https://${URL_BASE}/FISCO-BCOS/bcos-boostssl/archive/ef6705e59ea07f1dac8acc62e31cd49731df6a47.tar.gz
-	SHA1 8b7da727c4410beaa5ce9310bdcdd08d91687132
+	VERSION 3.0.0-rc2-local
+	URL https://${URL_BASE}/cyjseagull/bcos-boostssl/archive/ace55466c3ff2feb9aa4d85615dc9b0ac5714434.tar.gz
+	SHA1 e9962099880ef947b385caa6e01c9024b31a5ffd
 )
 
 
